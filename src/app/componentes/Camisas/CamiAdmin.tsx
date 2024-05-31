@@ -105,7 +105,7 @@ export const PeliAdmin = () => {
             <Modal.Footer>
               <Button
                 variant="secondary"
-                onClick={(e) => {
+                onClick={() => {
                   setShow(false);
                 }}
               >
@@ -114,7 +114,7 @@ export const PeliAdmin = () => {
 
               <Button
                 variant="danger"
-                onClick={(e) => {
+                onClick={() => {
                   eliminarCamisa(objPeli.codCamisa);
                   setShow(false);
                 }}
